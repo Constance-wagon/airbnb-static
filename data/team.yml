@@ -1,0 +1,9 @@
+mario:
+  picture: mario.png
+  role: COO
+luigi:
+  picture: luigi.png
+  role: vice-president
+toad:
+  picture: toad.jpg
+  role: champignon
