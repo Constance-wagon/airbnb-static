@@ -40,10 +40,10 @@
 
 /* Navbar standard link */
 .navbar-wagon-link {
-  color: #616668;
+  color: $grey-nav;
   font-size: 14px;
   :hover {
-    color: #da552f;
+    color: $orange-nav-hover;
     text-decoration: none;
   }
 }
@@ -54,18 +54,15 @@
   padding: 0 20px;
   border-radius: 20em;
   line-height: 40px;
-  background-color: #D23333;
+  background-color: $brand-color;
   color: white;
   font-size: 14px;
-  border: 2px solid #D23333;
+  border: 2px solid $brand-color;
   :hover {
     color: white;
-    background: #D23333;
-    border-color: #ac2626;
+    background: $brand-color;
+    border-color: $brand-color-hover;
   }
-}
-.navbar-wagon-button:hover {
-
 }
 
 /* Navbar search form */
@@ -78,7 +75,7 @@
 }
 .navbar-wagon-search-btn {
   line-height: 40px;
-  color: #E6E6E6;
+  color: $white-nav-search;
   border: none;
   background: transparent;
   position: absolute;
@@ -92,7 +89,7 @@
   line-height: 40px;
   font-weight: lighter;
   color: #666666;
-  border: 1px solid #E6E6E6;
+  border: 1px solid $white-nav-search;
   border-radius: 5px;
   padding: 0 10px;
   font-size: 14px;
@@ -105,8 +102,8 @@
 /* Navbar dropdown menu */
 .navbar-wagon-dropdown-menu {
   margin-top: 15px;
-  box-shadow: 1px 1px 4px #E6E6E6;
-  border-color: #E6E6E6;
+  box-shadow: 1px 1px 4px $white-nav-search;
+  border-color: $white-nav-search;
   :before {
     content: ' ';
     height: 10px;
@@ -116,8 +113,8 @@
     top: -6px;
     background-color: white;
     transform: rotate(45deg);
-    border-left: 1px solid #E6E6E6;
-    border-top: 1px solid #E6E6E6;
+    border-left: 1px solid $white-nav-search;
+    border-top: 1px solid $white-nav-search;
   }
   li a {
     transition: color 0.3s ease;
